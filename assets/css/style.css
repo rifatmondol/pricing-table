@@ -1,0 +1,107 @@
+/*
+````````````````````````````
+Theme Name: Pricing Section
+Theme Description: Pricing section of an eCommerce website
+Author Name: Md. Rifat Mondol
+Author URI: github.com/rifatmondol
+Theme Version: 1.0
+````````````````````````````
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*full section */
+.full-section{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.heading-section{
+	text-align: center;
+	width: 100%;
+}
+.heading-section h2 {
+  font-size: 36px;
+  color: #3b3b3c;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.heading-section span{
+	color: #26A65B;
+}
+.heading-section p{
+  line-height: 35px;
+  color: gray;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+/* card section start CSS */
+.card-section{
+	width: 100%;
+	margin: 0;
+	display: inline-flex;
+}
+.card-section .item1 {
+  width: 25%;
+  text-align: center;
+  margin: 15px;
+  border: 1px solid #d0cdcd;
+}
+.card-section .item1 h3{
+	text-transform: uppercase;
+	color: #4d4d4d;
+	letter-spacing: 0.5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.card-section .item1 ul{
+	list-style-type: none;
+}
+.card-section .item1 ul li{
+	line-height: 40px;
+	margin-left: 65px;
+	position: relative;
+	font-size: 15px;
+	text-align: left;
+}
+.fa-check,.fa-times {
+  position: absolute;
+  top: 10px;
+  left: -12%;
+}
+.fa-check{
+	color: #3AAE6A;
+}
+.fa-times{
+	width: 16px;
+	color: red;
+}
+.card-section .item1 h4{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+button{
+  padding: 15px 35px;
+  border: 1px solid #5CBC84;
+  border-radius: 33px;
+  font-size: 15px;
+  background: transparent;
+  line-height: 15px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+button:focus{
+	outline: none;
+}
+button:hover{
+	background: #5CBC84;
+	color: #fff;
+	transition: all linear 0.20s;
+	border: none;
+}
